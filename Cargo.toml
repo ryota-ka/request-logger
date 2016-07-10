@@ -3,6 +3,10 @@ name = "request-logger"
 version = "0.1.0"
 authors = ["Ryota Kameoka <kameoka.ryota@gmail.com>"]
 
+[lib]
+name = "request_logger"
+path = "src/lib.rs"
+
 [dependencies]
 iron = "*"
 time = "*"
